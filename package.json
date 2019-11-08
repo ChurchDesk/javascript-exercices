@@ -1,0 +1,8 @@
+{
+  "name": "javascript_exercises",
+  "version": "1.0.0",
+  "dependencies": {
+    "bluebird": "^3.7.1",
+    "lodash": "^4.17.15"
+  }
+}
