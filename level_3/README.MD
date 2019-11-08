@@ -1,23 +1,23 @@
 # Filtering and sorting
 
-**For each exercise, use the corresponding `.js` file in this folder (e.g.: the exercise's 1 resolution should be placed in the `level_3/exercise_3_1.js` file).**
+**So as to facilitate the solution of the following exercises, the `Bluebird`, `lodash` and `moment` libraries has been added as dependencies of this project. Feel free to add any other dependencies you deem necessary.**
+
+**For each exercise, use the corresponding `.js` file in this folder (e.g.: the exercise's 1 solution should be placed in the `level_3/exercise_3_1.js` file).**
 
 ## Exercises
 
-1. Create a function that prints the list of students (see annex) sorted by `name` BUT you are not allowed to change the original list.
+1. Create a function that prints the given list of students (see below), sorted by `name` BUT you are not allowed to change the original list.
 
-2. Create a function that receives a parameter that will be used to filter the list of students (see annex) by `hometown` and prints the filtered list sorted by `age` (you'll have to calculate it). Note that you are not allowed to change the original list.
+2. From the list students provided below, create a function that receives a parameter that will be used to filter the students by `hometown`. Then, sort the filtered list by `age` (you'll have to calculate it) and print it. Note that you are not allowed to change the original list.
 
-3. Create a single function that allows to filter and sort the provided list of students (see annex) with the following considerations:
+3. Create a function that allows to filter and sort the following list of students, taking into account:
 
-* Receives 4 parameters, 2 for filtering and 2 for sorting. This is; `filteringProperty`, `filteringValue`, `sortingProperty`, `sortingValue`.
+* The function must receives 4 parameters, 2 for filtering and 2 for sorting. This is; `filteringProperty`, `filteringValue`, `sortingProperty`, `sortingValue`.
 * Depending on the values of the provided parameters, it should allow to only filter, only sort, or both.
 * The only properties it can sort by are `name`, `age` (can be calculated), and `average`.
 * The only properties it can filter by are `hometown` and `gender`.
 * Bear in mind that it is NOT allowed to mutate the given list. This means, you cannot change the contents of the array or any of its elements.
-* You can use google to look up any topics you deem necessary in order to complete the exercise.
-
-# Annex
+* You can use Google to look up any topics you deem necessary in order to complete the exercise.
 
 ```javascript
 const students = [
