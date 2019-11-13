@@ -13,7 +13,7 @@
 ```javascript
 const users = [
   'john.thompson@hotmail.com',
-  'jean.jameson@yahoo.com'
+  'jean.jameson@yahoo.com',
   { email: 'joe.jefferson@gmail.com' },
   'jim.anderson@gmail.com',
   { email: 'jane.robinson@hotmail.com' },
